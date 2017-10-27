@@ -3,4 +3,3 @@
 --regex-Zig=/fn +([a-zA-Z0-9_]+) *\(/\1/f,functions,function definitions/
 --regex-Zig=/(var|const) *([a-zA-Z0-9_]+) *= *(extern|packed)? *(struct|enum|union)/\2/T,types,type definitions/
 --regex-Zig=/error +([a-zA-Z0-9_]+)/\1/e,errors,error definitions/
---regex-Zig=/test *"([^"]*)"/\1/t,tests,test definitions/
